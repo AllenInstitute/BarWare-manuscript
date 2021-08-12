@@ -1,0 +1,32 @@
+05-Oct-2020 17:03:56	BarCounter is being run by root
+05-Oct-2020 17:03:56	-w /mnt/disks/barcode-tender-manuscript/barcode_manifests/Pool-64_barcodes.tsv.gz (whitelist)
+05-Oct-2020 17:03:56	-t /mnt/disks/barcode-tender-manuscript/barcode_manifests/taglist.csv (taglist)
+05-Oct-2020 17:03:56	-1 (read1 fastq)
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L001_R1_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L002_R1_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L003_R1_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L004_R1_001.fastq.gz
+05-Oct-2020 17:03:56	-2 (read2 fastq)
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L001_R2_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L002_R2_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L003_R2_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L004_R2_001.fastq.gz
+05-Oct-2020 17:03:56	-o /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/BarCounter/ (output directory)
+05-Oct-2020 17:03:56	Output will be written to existing directory /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/BarCounter/
+05-Oct-2020 17:03:56	ADT counts will be written to /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/BarCounter/Pool-64-HTO_Tag_Counts.csv
+05-Oct-2020 17:03:56	Beginning fastq processing
+05-Oct-2020 17:03:56	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L001_R1_001.fastq.gz
+05-Oct-2020 17:03:56	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L001_R2_001.fastq.gz
+05-Oct-2020 17:06:35	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L002_R1_001.fastq.gz
+05-Oct-2020 17:06:35	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L002_R2_001.fastq.gz
+05-Oct-2020 17:09:05	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L003_R1_001.fastq.gz
+05-Oct-2020 17:09:05	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L003_R2_001.fastq.gz
+05-Oct-2020 17:13:04	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L004_R1_001.fastq.gz
+05-Oct-2020 17:13:04	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-64-HTO_S14_L004_R2_001.fastq.gz
+05-Oct-2020 17:17:27	Processing complete
+05-Oct-2020 17:17:27	Total reads processed: 163170227
+05-Oct-2020 17:17:27	Uncorrected barcodes: 132526203
+05-Oct-2020 17:17:27	Corrected barcodes: 2141464
+05-Oct-2020 17:17:27	Total Valid barcodes: 134667667
+05-Oct-2020 17:17:27	Valid tags: 128572449
+05-Oct-2020 17:17:27	FINISHED

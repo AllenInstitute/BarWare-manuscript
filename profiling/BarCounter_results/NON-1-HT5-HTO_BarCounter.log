@@ -1,0 +1,32 @@
+05-Oct-2020 16:42:45	BarCounter is being run by root
+05-Oct-2020 16:42:45	-w /mnt/disks/barcode-tender-manuscript/barcode_manifests/NON-1-HT5_barcodes.tsv.gz (whitelist)
+05-Oct-2020 16:42:45	-t /mnt/disks/barcode-tender-manuscript/barcode_manifests/taglist.csv (taglist)
+05-Oct-2020 16:42:45	-1 (read1 fastq)
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L001_R1_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L002_R1_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L003_R1_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L004_R1_001.fastq.gz
+05-Oct-2020 16:42:45	-2 (read2 fastq)
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L001_R2_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L002_R2_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L003_R2_001.fastq.gz
+				/mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L004_R2_001.fastq.gz
+05-Oct-2020 16:42:45	-o /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/BarCounter/ (output directory)
+05-Oct-2020 16:42:45	Output will be written to existing directory /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/BarCounter/
+05-Oct-2020 16:42:45	ADT counts will be written to /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/BarCounter/NON-1-HT5-HTO_Tag_Counts.csv
+05-Oct-2020 16:42:45	Beginning fastq processing
+05-Oct-2020 16:42:45	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L001_R1_001.fastq.gz
+05-Oct-2020 16:42:45	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L001_R2_001.fastq.gz
+05-Oct-2020 16:43:20	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L002_R1_001.fastq.gz
+05-Oct-2020 16:43:20	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L002_R2_001.fastq.gz
+05-Oct-2020 16:43:50	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L003_R1_001.fastq.gz
+05-Oct-2020 16:43:50	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L003_R2_001.fastq.gz
+05-Oct-2020 16:44:27	Opened read1 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L004_R1_001.fastq.gz
+05-Oct-2020 16:44:27	Opened read2 fastq file /mnt/disks/barcode-tender-manuscript/X017_fastq/NON-1-HT5-HTO_S9_L004_R2_001.fastq.gz
+05-Oct-2020 16:45:09	Processing complete
+05-Oct-2020 16:45:09	Total reads processed: 42303045
+05-Oct-2020 16:45:09	Uncorrected barcodes: 30371456
+05-Oct-2020 16:45:09	Corrected barcodes: 493920
+05-Oct-2020 16:45:09	Total Valid barcodes: 30865376
+05-Oct-2020 16:45:09	Valid tags: 29307609
+05-Oct-2020 16:45:09	FINISHED

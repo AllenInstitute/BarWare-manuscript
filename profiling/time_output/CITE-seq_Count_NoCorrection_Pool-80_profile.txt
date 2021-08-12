@@ -1,0 +1,23 @@
+	Command being timed: "/shared/apps/miniconda3/bin/CITE-seq-Count -R1 /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L001_R1_001.fastq.gz,/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L002_R1_001.fastq.gz,/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L003_R1_001.fastq.gz,/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L004_R1_001.fastq.gz -R2 /mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L001_R2_001.fastq.gz,/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L002_R2_001.fastq.gz,/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L003_R2_001.fastq.gz,/mnt/disks/barcode-tender-manuscript/X017_fastq/Pool-80-HTO_S15_L004_R2_001.fastq.gz -t /mnt/disks/barcode-tender-manuscript/barcode_manifests/taglist.csv -o /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/CITE-seq_Count_NoCorrection/Pool-80 -wl /mnt/disks/barcode-tender-manuscript/ADT_count_benchmarking/CITE-seq_Count_NoCorrection/whitelists/Pool-80_barcodes.tsv --no_umi_correction -cbf 1 -cbl 16 -umif 17 -umil 28 -cells 40000"
+	User time (seconds): 19421.77
+	System time (seconds): 315.26
+	Percent of CPU this job got: 383%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25:42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23189344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 170
+	Minor (reclaiming a frame) page faults: 57201031
+	Voluntary context switches: 252636
+	Involuntary context switches: 51771
+	Swaps: 0
+	File system inputs: 20842640
+	File system outputs: 16200
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
