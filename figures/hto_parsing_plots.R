@@ -3,14 +3,23 @@ library(data.table)
 library(dplyr)
 library(cowplot)
 
-res_df <- fread("BarCounter/Pool-32-HTO_Tag_Counts.csv")
+res_df <- fread("../profiling/BarCounter_results/Pool-32-HTO_Tag_Counts.csv")
 
+# consistent bins
+
+ht2_all_cuts <- data.frame(
+  x_min = seq(0, 2000 - 20, 20),
+  x_max = seq(20, 2000, 20),
+  y = table(cut(res_df$HT2, seq(0, 2000, 20)))
+)
 
 p1 <- ggplot() +
-  geom_histogram(
-    data = res_df,
-    aes(x = HT2),
-    bins = 100,
+  geom_rect(
+    data = ht2_all_cuts,
+    aes(xmin = x_min,
+        xmax = x_max,
+        ymin = 0,
+        ymax = y.Freq),
     fill = "darkgreen"
   ) +
   scale_x_continuous(
@@ -23,13 +32,20 @@ p1 <- ggplot() +
     expand = c(0,0)
   ) +
   theme_bw(base_size = 6)
-  
+
+ht2_filtered_cuts <- data.frame(
+  x_min = seq(0, 2000 - 20, 20),
+  x_max = seq(20, 2000, 20),
+  y = table(cut(res_df$HT2[res_df$HT2 >= 10], seq(0, 2000, 20)))
+)
+
 p2 <- ggplot() +
-  geom_histogram(
-    data = res_df %>%
-      filter(HT2 > 10),
-    aes(x = HT2),
-    bins = 100,
+  geom_rect(
+    data = ht2_filtered_cuts,
+    aes(xmin = x_min,
+        xmax = x_max,
+        ymin = 0,
+        ymax = y.Freq),
     fill = "darkgreen"
   ) +
   scale_x_continuous(
@@ -42,7 +58,7 @@ p2 <- ggplot() +
     expand = c(0,0)
   ) +
   theme_bw(base_size = 6)
-  
+
 p3 <- ggplot() +
   geom_histogram(
     data = res_df %>%
